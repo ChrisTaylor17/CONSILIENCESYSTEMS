@@ -12,10 +12,12 @@ export default function Home() {
         <header className="main-header">
           <div className="logo">CONSILIENCE</div>
           <nav>
-            <a href="#features">Features</a>
-            <a href="#how-it-works">How It Works</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#contact">Contact</a>
+            <a href="/projects">Projects</a>
+            <a href="/nft-gallery">NFT Gallery</a>
+            <a href="/token-room">Tokens</a>
+            <a href="/workspaces">Workspaces</a>
+            <a href="/ai-chat">AI Chat</a>
+            <a href="/dashboard">Dashboard</a>
           </nav>
         </header>
 
