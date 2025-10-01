@@ -1,5 +1,5 @@
 import { Connection, PublicKey, Keypair, Transaction, SystemProgram } from '@solana/web3.js'
-import { createMint, getOrCreateAssociatedTokenAccount, mintTo, createMetadataAccountV3 } from '@solana/spl-token'
+import { createMint, getOrCreateAssociatedTokenAccount, mintTo } from '@solana/spl-token'
 import { generateNFTImage, generateNFTMetadata } from './ai-image'
 
 const connection = new Connection('https://api.devnet.solana.com', 'confirmed')
