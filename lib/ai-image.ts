@@ -16,8 +16,8 @@ export async function generateNFTImage(prompt: string) {
 
     return {
       success: true,
-      imageUrl: response.data[0]?.url,
-      revisedPrompt: response.data[0]?.revised_prompt
+      imageUrl: response.data?.[0]?.url,
+      revisedPrompt: response.data?.[0]?.revised_prompt
     }
   } catch (error) {
     console.error('AI image generation error:', error)
